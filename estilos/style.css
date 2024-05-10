@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints:
+-------------------------------
+Telas pequenas: até 600px
+Mobile: até 768px.
+Tablets: até 992px.
+Desktop: até 1200px.
+Telas Grandes: acima de 1200px
+ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5E2C81;
+    height: 97vh;
+    width: 97vw;
+    position: relative;
+}
+
+main {
+    position: absolute;
+    background-image: url('../imagens/fundo.jpg');
+    margin: auto;
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    Line-height: 25px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+article > h1 {
+    text-align: center;
+    font-size: 2em;
+    Line-height: 45px;
+}
+
+div {
+    background-color: #5E2C81;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 8px;
+    color: white;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #90CECA;
+    padding: 5px;
+    color: black;
+}
+
+input#ilogin {
+    width: 290px;
+}
+
+input#isenha {
+    width: 283px;
+    height: 25px;
+}
+
+input {
+    width: 375px;
+    margin: auto;
+    margin: 3px;
+    color: white;
+}
+
+input:hover {
+    background-color: #29605C;
+}
+
+input#subesq {
+    background-color: white;
+    color: #90CECA;
+}
+
+input#subesq:hover {
+    background-color: #29605C;
+    color: white;
+}
+
