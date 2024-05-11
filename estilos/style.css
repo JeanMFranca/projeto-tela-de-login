@@ -41,7 +41,8 @@ main {
 article {
     background-color: white;
     padding: 10px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 382px;
 }
 
 article > h1 {
@@ -90,10 +91,17 @@ input:hover {
 input#subesq {
     background-color: white;
     color: #90CECA;
+    height: 45px;
+    font-size: 1.2em;
 }
 
 input#subesq:hover {
     background-color: #29605C;
     color: white;
+}
+
+input#sublog {
+    height: 45px;
+    font-size: 1.2em;
 }
 
