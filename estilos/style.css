@@ -27,9 +27,10 @@ body {
 main {
     position: absolute;
     background-image: url('../imagens/fundo.jpg');
+    background-position: center left;
     margin: auto;
-    width: 400px;
-    height: 700px;
+    width: 300px;
+    height: 600px;
     border-radius: 20px;
     Line-height: 25px;
 
@@ -42,7 +43,7 @@ article {
     background-color: white;
     padding: 10px;
     border-radius: 0px 0px 20px 20px;
-    margin-top: 382px;
+    margin-top: 223px;
 }
 
 article > h1 {
@@ -54,38 +55,39 @@ article > h1 {
 div {
     background-color: #5E2C81;
     padding: 5px;
+    padding-top: 0px;
     margin: 3px;
     border-radius: 8px;
     color: white;
 }
 
 input {
-    height: 25px;
-    width: 300px;
+    height: 30px;
+    width: 273px;
     border-radius: 8px;
     background-color: #90CECA;
     padding: 5px;
-    color: black;
+    margin: auto;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.2em;
 }
 
 input#ilogin {
-    width: 290px;
+    width: 215px;
 }
 
 input#isenha {
-    width: 283px;
-    height: 25px;
-}
-
-input {
-    width: 375px;
-    margin: auto;
-    margin: 3px;
-    color: white;
+    width: 215px;
 }
 
 input:hover {
     background-color: #29605C;
+}
+
+input:focus {
+    background-color: white;
+    color: black;
 }
 
 input#subesq {
@@ -103,5 +105,16 @@ input#subesq:hover {
 input#sublog {
     height: 45px;
     font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span.material-symbols-outlined {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, 30%);
+    
+    font-size: 30px;
 }
 
